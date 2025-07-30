@@ -1,0 +1,53 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AddStudent</servlet-name>
+        <servlet-class>AddStudentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddStudent</servlet-name>
+        <url-pattern>/AddStudentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>ViewStudentsServlet</servlet-name>
+    <servlet-class>ViewStudentsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ViewStudentsServlet</servlet-name>
+    <url-pattern>/ViewStudentsServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditStudentServlet</servlet-name>
+    <servlet-class>EditStudentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditStudentServlet</servlet-name>
+    <url-pattern>/EditStudentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <servlet-class>UpdateStudentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <url-pattern>/UpdateStudentServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <servlet-class>DeleteStudentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <url-pattern>/DeleteStudentServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
