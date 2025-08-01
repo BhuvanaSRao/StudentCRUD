@@ -1,5 +1,5 @@
 # StudentCRUD
-This Mini Project is a studentCRUD operation
+This Micro Project is a studentCRUD operation
 https://github.com/BhuvanaSRao
 
 Download and Installtion: Required for java Project:
